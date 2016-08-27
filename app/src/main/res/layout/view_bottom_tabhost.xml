@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/id_btn_house"
+        style="@android:style/Holo.ButtonBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/main_page" />
+
+    <Button
+        android:id="@+id/id_btn_chat"
+        style="@android:style/Holo.ButtonBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop=""
+        android:text="@string/chat" />
+
+    <Button
+        android:id="@+id/id_btn_user"
+        style="@android:style/Holo.ButtonBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/tabs_user"
+        android:text="@string/user_center" />
+
+</LinearLayout>
